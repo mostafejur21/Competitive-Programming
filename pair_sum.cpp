@@ -55,10 +55,12 @@ bool array_pair(int arr[], int n, int sum)
 	while (l < r) {
 		if (arr[l] + arr[r] == sum)
 			return 1;
-		else if (arr[l] + arr[r] < sum)
+		else if (arr[l] + arr[r] < sum){
 			l++;
-		else
+		}
+		else{
 			r--;
+		}
 	}
 	return 0;
 }
