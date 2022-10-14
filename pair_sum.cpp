@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> // Include every standard library
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef long long LL;
